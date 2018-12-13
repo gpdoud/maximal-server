@@ -175,11 +175,25 @@
     <Compile Include="Migrations\201812131744482_initialization.Designer.cs">
       <DependentUpon>201812131744482_initialization.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201812131821547_create relationships between user role privilege.cs" />
+    <Compile Include="Migrations\201812131821547_create relationships between user role privilege.Designer.cs">
+      <DependentUpon>201812131821547_create relationships between user role privilege.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201812131921372_added code to role and privilege.cs" />
+    <Compile Include="Migrations\201812131921372_added code to role and privilege.Designer.cs">
+      <DependentUpon>201812131921372_added code to role and privilege.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201812132019056_added relationship tables userrolerel and roleprivilegerel.cs" />
+    <Compile Include="Migrations\201812132019056_added relationship tables userrolerel and roleprivilegerel.Designer.cs">
+      <DependentUpon>201812132019056_added relationship tables userrolerel and roleprivilegerel.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\MaximalDbContext.cs" />
     <Compile Include="Models\Privilege.cs" />
     <Compile Include="Models\Role.cs" />
+    <Compile Include="Models\RolePrivilegeRel.cs" />
     <Compile Include="Models\User.cs" />
+    <Compile Include="Models\UserRoleRel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -268,6 +282,15 @@
   <ItemGroup>
     <EmbeddedResource Include="Migrations\201812131744482_initialization.resx">
       <DependentUpon>201812131744482_initialization.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201812131821547_create relationships between user role privilege.resx">
+      <DependentUpon>201812131821547_create relationships between user role privilege.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201812131921372_added code to role and privilege.resx">
+      <DependentUpon>201812131921372_added code to role and privilege.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201812132019056_added relationship tables userrolerel and roleprivilegerel.resx">
+      <DependentUpon>201812132019056_added relationship tables userrolerel and roleprivilegerel.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
